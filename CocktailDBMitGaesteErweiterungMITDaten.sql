@@ -20,7 +20,7 @@ CREATE TABLE `tbgast` (
   `Address` varchar(255) COLLATE utf8_german2_ci DEFAULT NULL,
   `IDplz` int(10) DEFAULT NULL,
   `GEBDatum` date DEFAULT NULL,
-  `IDSex` int(1) DEFAULT NULL,
+  `IDSex` int(10) DEFAULT NULL,
   `AnzahlC` int(11) DEFAULT NULL,
   `Guthaben` decimal(8,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_german2_ci;
